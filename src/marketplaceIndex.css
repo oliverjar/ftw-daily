@@ -14,12 +14,12 @@ body {
 
 ::selection {
   background: var(--marketplaceColor); /* WebKit/Blink Browsers */
-  color: var(--matterColorLight);
+  color: var(--rebeccapurple);
 }
 
 ::-moz-selection {
   background: var(--marketplaceColor); /* Gecko Browsers */
-  color: var(--matterColorLight);
+  color: var(--rebeccapurple);
 }
 
 a {

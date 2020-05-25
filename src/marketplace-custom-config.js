@@ -3,18 +3,22 @@
  */
 
 export const yogaStyles = [
-  { key: 'ashtanga', label: 'Ashtanga' },
-  { key: 'hatha', label: 'Hatha' },
-  { key: 'kundalini', label: 'Kundalini' },
+  { key: 'fishing boat', label: 'fishing boat' },
+  { key: 'deck boat', label: 'deck boat' },
+  { key: 'bowrider boat', label: 'bowrider boat' },
   { key: 'restorative', label: 'Restorative' },
-  { key: 'vinyasa', label: 'Vinyasa' },
-  { key: 'yin', label: 'Yin' },
+  { key: 'house boat', label: 'house boat' },
+  { key: 'cabin cruiser boat', label: 'cabin cruiser boat' },
+  { key: 'catamaran boat', label: 'catamaran boat' },
+  { key: 'cuddy cabin boat', label: 'cuddy cabin boat' },
+  { key: 'center console boat', label: 'center console boat' },
+  { key: 'trawler boat', label: 'trawler boat' },
 ];
 
 export const certificate = [
   { key: 'none', label: 'None', hideFromFilters: true, hideFromListingInfo: true },
-  { key: '200h', label: 'Registered yoga teacher 200h' },
-  { key: '500h', label: 'Registered yoga teacher 500h' },
+  { key: '200h', label: 'Novice Boat Captain' },
+  { key: '500h', label: 'Experienced Boat Captaih' },
 ];
 
 // Price filter configuration
@@ -55,6 +59,37 @@ export const dateRangeLengthFilterConfig = {
 export const keywordFilterConfig = {
   active: true,
 };
+
+export const amenities = [
+  {
+    key: 'towels',
+    label: 'Towels',
+  },
+  {
+    key: 'bathroom',
+    label: 'Bathroom',
+  },
+  {
+    key: 'own drinks allowed',
+    label: 'Own drinks allowed',
+  },
+  {
+    key: 'audio visual entertainment',
+    label: 'Audio visual entertainment',
+  },
+  {
+    key: 'lake_view',
+    label: 'Lake view',
+  },
+  {
+    key: 'sea_view',
+    label: 'Sea view',
+  },
+  {
+    key: 'barbeque',
+    label: 'Barbeque',
+  },
+];
 
 export const sortConfig = {
   // Enable/disable the sorting control in the SearchPage

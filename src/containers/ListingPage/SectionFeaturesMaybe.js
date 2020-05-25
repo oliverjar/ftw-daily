@@ -10,7 +10,7 @@ const SectionFeaturesMaybe = props => {
     return null;
   }
 
-  const selectedOptions = publicData && publicData.yogaStyles ? publicData.yogaStyles : [];
+  const selectedOptions = publicData && publicData.boatStyles ? publicData.boatStyles : [];
   const selectedConfigOptions = options.filter(o => selectedOptions.find(s => s === o.key));
 
   return (
