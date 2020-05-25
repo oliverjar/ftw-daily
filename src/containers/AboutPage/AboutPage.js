@@ -25,7 +25,7 @@ const AboutPage = () => {
       schema={{
         '@context': 'http://schema.org',
         '@type': 'AboutPage',
-        description: 'About Yogatime',
+        description: 'About Boatbuds',
         name: 'About page',
       }}
     >
@@ -35,53 +35,34 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Find new depths in your yoga practice</h1>
+          <h1 className={css.pageTitle}>Find your next adventure</h1>
           <img className={css.coverImage} src={image} alt="My first ice cream." />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Yoga was listed by UNESCO as an intangible cultural heritage.</p>
+              <p>Boats don't run on thanks - said every captain.</p>
             </div>
 
             <div className={css.contentMain}>
-              <h2>
-                Each yoga practitioner is an individual, and each one of us needs different care.
-                Working together with an experienced yoga teacher offers the possibility to rise
-                our practise to a whole new level.
-              </h2>
-
-              <p>
-                Whether it is the alignment of asanas or being able to set the focus of the class,
-                we all have our own struggles and goals. Some of these cannot be addressed in a
-                regular class of twenty yogis. Working together with the experienced yoga teachers
-                from Yogatime, you can together create just the right class for you.
+              
+              <p>My girlfriend and I had made plans one warm summer day with a buddy who owned a boat. We spent the night before getting everything ready to go and our excitement was building. That morning we woke up early, swung by the corner coffee stand to get us through the hour drive, and headed down the road. Just as we were pulling up to the lake, our friends cancelled on us. 
+              There we were, ready to have some fun in the sun but stranded without options. Stuck at the dock, we somberly watched the boats pull in and smiles float away. We decided to salvage what we could of the day and hike around to a popular point. After sun bathing for a few hours, my girlfriend received a text from her friend saying they were out on their boat and would swing by and grab us. As we were climbing on, they explained they had been there all day without any company and that they wish they had known we were there earlier. Knowing boats don’t run on ‘thank yous’, I apologized I didn’t have any cash or brews to compensate for their good deed. They cruised us around for about an hour and dropped us back off, we instantly felt better. As we sat back on the beach watching the boats float by with a new perspective, it hit me; why aren’t we connected on the water?
+              The idea of Boat Buds was born out of a need on the lake that day. It would be a peer to peer network that would join the people who owned boats to people who wanted to go out on them. This wouldn’t be a rental scheme, rather a way for people to broaden their network and a platform that would facilitate a fair exchange in order for both parties to have a good time. Not only does Boat Buds link friends who are going out together on a boat, we make it possible to make plans on any body of water by connecting strangers with the same goal—to have some fun in the sun. It would be a tool that I wish I had many other times that same summer. The more people the idea spread to, the more positive momentum grew and that idea on the lake that day slowly turned into a community.
               </p>
-
-              <h3 className={css.subtitle}>Are you a yoga teacher?</h3>
-
               <p>
-                Yogatime offers you a platform through which you can reach thousands of yoga
-                practitioners. Offering private yoga classes through Yogatime offers you a
-                possibility to grow your customer base and earn some extra income on top of your
-                regular classes.
-              </p>
-
-              <h3 id="contact" className={css.subtitle}>
-                Create your own marketplace like Yogatime
-              </h3>
-              <p>
-                Yogatime is brought to you by{' '}
-                <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Sharetribe
-                offers anyone a possibility to create a marketplace without restricting your own
-                creativity. Do not hesitate to reach out and learn how to best turn your
-                marketplace idea to reality.
+              -Capt Jake
               </p>
               <p>
                 You can also checkout our{' '}
                 <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
                 <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
               </p>
+            
+            
             </div>
+
+
+
           </div>
         </LayoutWrapperMain>
 
